@@ -73,10 +73,10 @@ footer {
 }
 
 #logoblue {
-	width: 1em;
+	width: 1.4em;
 	display: inline-block;
 	position: relative;
-	margin-left: 0.5em;
+	margin-right: 0.5em;
 	top: 2em;
 }
 
@@ -97,6 +97,8 @@ h1 {
 	margin-bottom: 0.7em;
 	font-size: 2.2em;
 	color: #000;
+	display: block;
+	position: relative;
 }
 
 h2 {
