@@ -299,7 +299,7 @@ $(window).on('load', function() {
     contractInstance.getBalance(function(error, currentBalance) {
         if (error) {
             var errorMsg = 'error reading greeting from smart contract: ' + error;
-            $('#content').text(errorMsg);
+            $('#contentBalance').text(errorMsg);
             console.log(errorMsg);
             return;
         }
