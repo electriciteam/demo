@@ -69,7 +69,8 @@ main {
 	display: block;
 	margin-top: 2em;
 	margin-bottom: 0.7em;
-	margin-left: 3em;
+	margin-left: 4em;
+	margin-right: 3em;
 	color: #336;
 }
 
@@ -210,6 +211,7 @@ footer a:hover {
 		margin-top: 2em;
 		margin-bottom: 0.7em;
 		margin-left: 4em;
+		margin-right: 3em;
 	}
 	
 	footer {
@@ -231,6 +233,7 @@ footer a:hover {
 		margin-top: 2em;
 		margin-bottom: 0.7em;
 		margin-left: 4em;
+		margin-right: 3em;
 	}
 	
 	footer {
@@ -245,6 +248,7 @@ footer a:hover {
 		margin-top: 2em;
 		margin-bottom: 0.7em;
 		margin-left: 0.5em;
+		margin-right: 0.5em;
 	}
 	
 	footer {
