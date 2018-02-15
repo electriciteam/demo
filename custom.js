@@ -304,6 +304,7 @@ $(window).on('load', function() {
             return;
         }
         $('#contentBalance').text('Balance of StromSack: ' + currentBalance + ' ELC');
+	$('#balanceVal').text('currentBalance);
 	console.log('I could get balance');
     });
 
