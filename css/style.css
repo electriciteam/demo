@@ -304,12 +304,12 @@ footer a:active {
 	position: relative;
 	bottom: -0.4em;
 }
-
+/*
 #signinfp {
 	display: block;
 	margin-right: 0em;
 	float: right;
-}
+}*/
 
 #register {
 	float: right;
