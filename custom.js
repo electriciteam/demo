@@ -303,7 +303,7 @@ $(window).on('load', function() {
             console.log(errorMsg);
             return;
         }
-        $('#content').text('Balance of StromSack: ' + currentBalance + ' kWh');
+        $('#contentBalance').text('Balance of StromSack: ' + currentBalance + ' ELC');
     });
 
     $('#my-form').on('submit', function(e) {
