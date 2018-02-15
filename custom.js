@@ -615,7 +615,7 @@ $(window).on('load', function() {
                 console.log(errorMsg);
                 return;
             }
-            $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash + ' - Please now go back to Dashboard: ' + 'https://electriciteam.github.io/demo/dashboard' );
+            $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash + ' - Please now go back to Dashboard: ' + '<a href="url">https://electriciteam.github.io/demo/dashboard</a>' );
         });
     });
 	
