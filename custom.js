@@ -303,8 +303,7 @@ $(window).on('load', function() {
             console.log(errorMsg);
             return;
         }
-        //$('#content').text('Balance from contract: ' + currentBalance);
-	 document.getElementById("currentBalanceField").innerHTML = "hello";
+        $('#content').text('Balance of StromSack: ' + currentBalance + ' kWh');
     });
 
     $('#my-form').on('submit', function(e) {
