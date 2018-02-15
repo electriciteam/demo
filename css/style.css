@@ -31,7 +31,7 @@ footer {
 	display: block;
 	width: 60em;
 	height: 2em;
-	background-color: #f00;
+	background-color: #88a;
 	color: #fff;
 	padding-left: 4em;
 	padding-top: 0.2em;
@@ -67,7 +67,7 @@ footer {
 	position: relative;
 	font-size: 1.5em;
 	margin: 0.5em 1em;
-	color: #f00;
+	color: #88a;
 	float: left;
 	padding: 0em;
 }
