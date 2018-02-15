@@ -71,7 +71,7 @@
 		<form>
 		I want to join the program! <input type="checkbox" name="wantjoin" value="" id="joincheck">
 		<p>Please choose an available installation date:</p>
-		<input type="date" name="installationdate">
+		<input type="date" name="installationdate" id="installationdate">
 		<a class="button" id="continue3">Continue</a>
 		<p id="nojoin">Check the box if you want to join!</p>
 		</form>
@@ -118,6 +118,20 @@
 	
 	<script>
 $(document).ready(function(){
+	/*set minimum date to today*/
+    	var date = new Date();
+
+    	var day = date.getDate();
+    	var month = date.getMonth() + 1;
+    	var year = date.getFullYear();
+
+    	if (month < 10) month = "0" + month;
+    	if (day < 10) day = "0" + day;
+
+    	var today = year + "-" + month + "-" + day;       
+    	$("#installationdate").attr("value", today);
+	
+	/*hide parts for later*/
 	$("#noerror").hide();
 	$("#noprosumer").hide();
 	$("#nojoin").hide();
@@ -125,6 +139,8 @@ $(document).ready(function(){
 	$("#page3").hide();
 	$("#page4").hide();
 	$("#page5").hide();
+	
+	/*events on continue*/
 	$("#continue").click(function(){
 		if (document.getElementById("customernumber").value != 0) {
 			if (document.getElementById("customernumber").value == 1) {
