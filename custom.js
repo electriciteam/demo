@@ -616,7 +616,7 @@ $(window).on('load', function() {
                 return;
             }
             $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash + ' - Please now go back to: ');
-            $('#content').html('<a href="https://electriciteam.github.io/demo/dashboard">Dashboard</a>');
+            $('#my-link').html('<a href="https://electriciteam.github.io/demo/dashboard">Dashboard</a>');
 	});
     });
 	
