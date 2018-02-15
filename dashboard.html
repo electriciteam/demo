@@ -31,13 +31,22 @@
 	<main>
 	
 	
-	<h1>Dashboard</h1>
+	<h1>StromSack Dashboard</h1>
 	
   	<!-- Put content below here -->
 	
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
+	<p id=currentBalanceField> </p>
+		
+	
+        <form id="my-form">
+            <input type="number" name="deposit" id="deposit" value="0" min="0" step="1" />
+            <button type="submit">Deposit Energy</button>
+        </form>
+
+		
 <div id="containerchart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 <!-- Part 1, Sandro's Graph--> 
@@ -114,6 +123,8 @@ Highcharts.chart('containerchart', {
     }]
 });
   </script>
+		
+  <script src="custom.js"></script>
 		
 	<!-- End content -->
 	
