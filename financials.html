@@ -34,7 +34,60 @@
 	
 	<h1>Financials</h1>
 	
-	
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<!-- Part 1, Sandro's Graph--> 
+<!-- Part 2, Area Graph--> 
+<!-- Part 3, Coin Graph--> 
+
+  <script>
+Highcharts.chart('container', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'ELC Balance by Date'
+    },
+    xAxis: {
+        categories: [
+        "Feb 11",
+        "Feb 12",
+        "Feb 13",
+        "Feb 14",
+	"Feb 15"
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'ELC Balance'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [ {
+        name: 'Balance',
+        data: [10,20,15,7, 20], 
+        color: '#76DA35'
+    }]
+});
+  </script>
   
 	
 	</main>
