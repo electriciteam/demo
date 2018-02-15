@@ -615,7 +615,12 @@ $(window).on('load', function() {
                 console.log(errorMsg);
                 return;
             }
-            $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash + ' - Please now go back to Dashboard: ' + '<a href="https://electriciteam.github.io/demo/dashboard">TEST</a>' );
+            var a = document.createElement('a');
+            var linkText = document.createTextNode("Dashboard");
+            a.appendChild(linkText);
+            a.title = "Dashboard";
+            a.href = "https://electriciteam.github.io/demo/dashboard";
+            $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash + ' - Please now go back to ' + document.body.appendChild(a));
         });
     });
 	
