@@ -48,7 +48,8 @@
 <!-- Part 3, Coin Graph--> 
 
   <script>
-	var latestBalance = [20010,30120,1500,14070, parseInt(document.getElementById("balanceVal").innerHTML)];
+	var latestBalance = setTimeout([20010,30120,1500,14070, parseInt(document.getElementById("balanceVal").innerHTML)], 2000);
+	  
 Highcharts.chart('containergraph', {
     chart: {
         type: 'column'
