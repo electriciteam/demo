@@ -85,6 +85,7 @@ footer {
 
 main {
 	display: block;
+	position: relative;
 	margin-top: 2em;
 	margin-bottom: 0.7em;
 	margin-left: 4em;
@@ -306,9 +307,8 @@ footer a:active {
 }
 
 #signinfp {
-	display: block;
-	margin-right: 0em;
-	float: right;
+	position: absolute;
+	right: 1em;
 }
 
 #register {
