@@ -212,11 +212,15 @@ footer a {
 	padding: 0.2em;
 	margin-right: 1em;
 	cursor: pointer;
+	color: #fff
 }
 footer a:hover {
 	text-decoration: underline;
 }
 
+footer a:active {
+	text-decoration: underline;
+}
 
 
 @media only screen and (min-width: 60em) {
