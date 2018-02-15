@@ -384,6 +384,10 @@ footer a:active {
 	max-width: 25em;
 }
 
+#content {
+	clear: both;
+}
+
 /* Login */
 
 
