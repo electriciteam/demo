@@ -134,6 +134,7 @@ $(document).ready(function(){
 		}
 	});
 	$("#customernumber").keyup(function(event) {
+		event.preventDefault();
 		if (event.keyCode === 13) {
         		$("#continue").click();
 		}
