@@ -17,9 +17,11 @@
 $(document).ready(function(){
 	$("#noerror").hide();
 	$("#noprosumer").hide();
+	$("#nojoin").hide();
 	$("#page2").hide();
 	$("#page3").hide();
-    $("#continue").click(function(){
+	$("#page4").hide();
+	$("#continue").click(function(){
 		if (document.getElementById("customernumber").value != 0) {
 			if (document.getElementById("customernumber").value == 1) {
 				$("#page1").slideUp();
@@ -27,14 +29,22 @@ $(document).ready(function(){
 			} else {
 				$("#noerror").show();
 			}
-		}
-    });
+		
+	});
 	$("#continue2").click(function(){
 		if (document.getElementById("proscheck").checked) {
 			$("#page2").slideUp();
 			$("#page3").slideDown();
 		} else {
 			$("#noprosumer").show();
+		}
+	});
+	$("#continue3").click(function(){
+		if (document.getElementById("joincheck").checked) {
+			$("#page3").slideUp();
+			$("#page4").slideDown();
+		} else {
+			$("#nojoin").show();
 		}
 	});
 });
@@ -96,6 +106,7 @@ $(document).ready(function(){
 		<p>Please choose an available installation date:</p>
 		<input type="date" name="installationdate">
 		<input type="button" name="continue" value="Continue" id="continue3">
+		<p id="nojoin">Check the box if you want to join!</p>
 		</form>
 	</div>
 		
