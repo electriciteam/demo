@@ -620,7 +620,7 @@ $(window).on('load', function() {
             a.appendChild(linkText);
             a.title = "Dashboard";
             a.href = "https://electriciteam.github.io/demo/dashboard";
-            $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash + ' - Please now go back to ' + document.body.appendChild(a));
+            $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash + ' - Please now go back to ' + a);
         });
     });
 	
