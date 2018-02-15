@@ -1,0 +1,339 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    box-sizing: border-box;
+}
+
+/* Generall */
+
+body {
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-top:0;
+	margin-bottom:0;
+	border: 0;
+	padding: 0;
+	font-family:  'Open Sans', sans-serif;
+	background: #50AAFF url("../img/backgroundsmall.jpg") no-repeat right top;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+header {
+	display: block;
+	width: 100%;
+	height: 3.2em;
+}
+
+footer {
+	display: block;
+	width: 60em;
+	height: 2em;
+	background-color: #88a;
+	color: #fff;
+	padding-left: 4em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	clear: both;
+	position: absolute;
+	bottom: 0em;
+}
+
+#container {
+	display: block;
+	width: 60em;
+	background-color: #FFFFFF;
+	margin: auto;
+	height: 100%;
+	border: 0;
+	min-height: 100vh;
+	padding-bottom: 2em;
+	overflow-x: hidden;
+}
+
+#ewz {
+	width: 8.2em;
+	margin: 0.7em;
+	margin-right: 2em;
+	float: right;
+	
+}
+
+
+
+
+
+
+main {
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 0.7em;
+	margin-left: 3em;
+	color: #336;
+}
+
+h1 {
+	margin-left: 0em;
+	margin-bottom: 0.7em;
+	font-size: 2.2em;
+	color: #000;
+}
+
+h2 {
+	margin-left: 0em;
+	margin-top: 3em;
+	font-size: 1.5em;
+	color: #000;
+}
+
+p {
+	margin-left: 0em;
+	margin-right: 0em;
+	font-size: 1em;
+	max-width: 38em;
+}
+
+ol {
+	max-width: 38em;
+}
+
+.button {
+	background-color: #f00;
+	color: #fff;
+	border: none;
+	padding: 0.5em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+	border-radius: 0.5em;
+	margin: 0.4em 0.4em;
+	font-weight: bold;
+	outline: none;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+.button:hover {
+	box-shadow: 0 0.08em 1em 0 rgba(0,0,0,0.2), 0 0.2em 0.6em 0 rgba(0,0,0,0.19);
+	color: #fff;
+}
+
+input[type=button] {
+	background-color: #f00;
+	color: #fff;
+	border: none;
+	padding: 0.5em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+	border-radius: 0.5em;
+	margin: 0.4em 0.4em;
+	font-weight: bold;
+	outline: none;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+input[type=button]:hover {
+	box-shadow: 0 0.08em 1em 0 rgba(0,0,0,0.2), 0 0.2em 0.6em 0 rgba(0,0,0,0.19);
+}
+
+input[type=text]{
+	background-color: #fff;
+	color: #336;
+	border: 0.1em solid #336;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	border-radius: 0.5em;
+	margin: 0.4em 0.4em;
+	outline: none;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+input[type=text]:focus {
+	border: 0.1em solid #5bf;
+}
+
+input[type=checkbox] {
+	display: inline-block;
+	top: 0.5em;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border: 0.1em solid #336;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+
+main a {
+	text-decoration: underline;
+	color: #336;
+}
+
+main a:hover {
+	color: #5bf;
+	cursor: pointer;
+}
+
+footer a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0.2em;
+	margin-right: 1em;
+	cursor: pointer;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 60em) {
+
+	body {
+		background: #5bf url("../img/backgroundsmall.jpg") no-repeat right top;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	#container {
+		width: 60em;
+	}
+	
+	main {
+		margin-top: 2em;
+		margin-bottom: 0.7em;
+		margin-left: 4em;
+	}
+	
+	footer {
+		padding-left: 4em;
+	}
+
+}
+
+@media only screen and (max-width: 60em) {
+	body {
+		background: #fff;
+	}
+	
+	#container {
+		width: 100%;
+	}
+	
+	main {
+		margin-top: 2em;
+		margin-bottom: 0.7em;
+		margin-left: 4em;
+	}
+	
+	footer {
+		padding-left: 4em;
+	}
+ 
+}
+
+@media only screen and (max-width: 45em) {
+	
+	main {
+		margin-top: 2em;
+		margin-bottom: 0.7em;
+		margin-left: 0.5em;
+	}
+	
+	footer {
+		padding-left: 0.5em;
+	}
+ 
+}
+
+/* Index */
+
+#signin {
+	margin-right: 2em;
+	float: right;
+}
+
+#register {
+	float: right;
+	margin-right: 6em;
+	margin-bottom: 6em;
+	width: 20em;
+	
+}
+
+/* Register */
+
+#customernumber {
+	width: 30em;
+}
+
+#noerror {
+	color: #f00;
+	font-size: 0.8em;
+	width: 30em;
+}
+
+#page1 {
+	display: block;
+	width: 100%;
+}
+
+#page1left {
+	display: block;
+	width: 30em;
+	float: left;
+}
+
+#page1right {
+	display: block;
+	width: 20em;
+	float: right;
+	padding-left: 2em;
+	margin-left: 2em;
+}
+
+#page2 {
+	position: relative;
+}
+
+#continue2 {
+	margin-left: 2em;
+}
+
+#noprosumer {
+	font-size: 0.8em;
+	color: #f00;
+	max-width: 25em;
+}
+
+/* Login */
+
+
+
+#signinleft {
+	display: block;
+	float: left;
+	width: 25em;
+}
+
+#signinright {
+	display: block;
+	float: left;
+	width: 30em;
+}
+
+
+#emailtext {
+	width: 20em;
+}
+
+.idtext {
+	width: 3em;
+}
