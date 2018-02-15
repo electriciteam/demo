@@ -319,5 +319,19 @@ $(window).on('load', function() {
             $('#content').text('submitted new deposit to virtual storage, transaction hash: ' + txHash);
         });
     });
+	
+    $('#registerPubKey').on('submit', function(e) {
+        e.preventDefault(); // cancel the actual submit
+        var deposit = 5000; //$('#greeting').val();
+        contractInstance.depositEnergy(deposit, function(error, txHash) {
+            if (error) {
+                var errorMsg = 'error writing new greeting to smart contract: ' + error;
+                $('#content').text(errorMsg);
+                console.log(errorMsg);
+                return;
+            }
+            $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash);
+        });
+    });
 
 });
