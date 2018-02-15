@@ -353,6 +353,13 @@ footer a:active {
 	margin: 2em;
 }
 
+#funcsbenefits {
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 90%;
+}
+
 /* Register */
 
 #customernumber {
