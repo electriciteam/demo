@@ -150,7 +150,7 @@ input[type=text]{
 	background-color: #fff;
 	color: #336;
 	border: 0.1em solid #336;
-	padding: 0.5em 1em;
+	padding: 0.5em;
 	font-size: 1em;
 	border-radius: 0.5em;
 	margin: 0.4em 0.4em;
@@ -178,8 +178,8 @@ input[type=date] {
 	background-color: #fff;
 	color: #336;
 	border: 0.1em solid #336;
-	padding: 0.5em 1em;
-	font-size: 1em;
+	padding: 0.5em;
+	font-size: 1.2em;
 	border-radius: 0.5em;
 	margin: 0.4em 0.4em;
 	outline: none;
@@ -189,7 +189,7 @@ input[type=password] {
 	background-color: #fff;
 	color: #336;
 	border: 0.1em solid #336;
-	padding: 0.5em 1em;
+	padding: 0.5em;
 	font-size: 1em;
 	border-radius: 0.5em;
 	margin: 0.4em 0.4em;
@@ -368,8 +368,7 @@ footer a:hover {
 }
 
 .idtext {
-	width: 3em;
-	padding: 0.2em 0.2em;
+	width: 4em;
 }
 
 #submit {
