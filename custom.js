@@ -304,7 +304,7 @@ $(window).on('load', function() {
             return;
         }
         //$('#content').text('Balance from contract: ' + currentBalance);
-	 $('#content').getElementById("currentBalance").innerHTML = 5 + 6;
+	 $('#content').getElementById("currentBalanceField").innerHTML = 5 + 6;
     });
 
     $('#my-form').on('submit', function(e) {
