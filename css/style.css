@@ -307,28 +307,9 @@ footer a:active {
 }
 
 #signinfp {
-	background-color: #f00;
-	color: #fff;
-	border: none;
-	padding: 0.5em 2em;
-    	text-align: center;
-    	text-decoration: none;
-    	display: inline-block;
-    	font-size: 1.2em;
-	border-radius: 0.5em;
-	margin: 0.4em 0.4em;
-	font-weight: bold;
-	outline: none;
-	-webkit-transition-duration: 0.3s; /* Safari */
-    	transition-duration: 0.3s;
-	cursor: pointer;
+	display: block;
 	position: absolute;
 	right: 1em;
-}
-
-#signinfp:hover {
-	box-shadow: 0 0.08em 1em 0 rgba(0,0,0,0.2), 0 0.2em 0.6em 0 rgba(0,0,0,0.19);
-	color: #fff;
 }
 
 #register {
