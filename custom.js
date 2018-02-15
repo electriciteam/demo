@@ -618,5 +618,20 @@ $(window).on('load', function() {
             $('#content').text('Thank you for signing up,  your transaction hash is: ' + txHash);
         });
     });
+	
+    $('#withdraw-form').on('submit', function(e) {
+        e.preventDefault(); // cancel the actual submit
+        var withdraw = $('#withdrawal').val();
+	//withdraw = 10;
+        contractInstance.withdrawEnergy(withdraw, function(error, txHash) {
+            if (error) {
+                var errorMsg = 'error writing withdrawal to smart contract: ' + error;
+                $('#content').text(errorMsg);
+                console.log(errorMsg);
+                return;
+            }
+            $('#content').text('submitted new withdrawal, transaction hash: ' + txHash);
+        });
+    });
 
 });
