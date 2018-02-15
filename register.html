@@ -133,6 +133,11 @@ $(document).ready(function(){
 			}
 		}
 	});
+	$("#costumernumber").keyup(function(event) {
+		if (event.keyCode === 13) {
+        		$("#continue").click();
+		}
+	});
 	$("#continue2").click(function(){
 		if (document.getElementById("proscheck").checked) {
 			$("#page2").slideUp();
