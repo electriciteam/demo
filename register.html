@@ -96,7 +96,9 @@
 		<a class="button" id="continue4">Continue</a>
 		</form>
 	</div>
-  
+  	
+	<div id="page5">Page5
+	</div>
 	
 	</main>
 	
@@ -113,6 +115,7 @@ $(document).ready(function(){
 	$("#page2").hide();
 	$("#page3").hide();
 	$("#page4").hide();
+	$("#page5").hide();
 	$("#continue").click(function(){
 		if (document.getElementById("customernumber").value != 0) {
 			if (document.getElementById("customernumber").value == 1) {
@@ -138,6 +141,10 @@ $(document).ready(function(){
 		} else {
 			$("#nojoin").show();
 		}
+	});
+	$("#continue4").click(function(){
+		$("#page4").slideUp();
+		$("#page5").slideDown();
 	});
 });
 </script>
