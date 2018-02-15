@@ -143,6 +143,10 @@ ol {
 	color: #fff;
 }
 
+.clear {
+	clear: both
+}
+
 input[type=button] {
 	background-color: #f00;
 	color: #fff;
