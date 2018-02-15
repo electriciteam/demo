@@ -48,7 +48,7 @@
 <!-- Part 3, Coin Graph--> 
 
   <script>
-	 var latestBalance = parseInt(document.getElementById("balanceVal").innerHTML);
+	var latestBalance = [20010,30120,1500,14070, parseInt(document.getElementById("balanceVal").innerHTML)];
 Highcharts.chart('containergraph', {
     chart: {
         type: 'column'
@@ -88,7 +88,7 @@ Highcharts.chart('containergraph', {
     },
     series: [ {
         name: 'Balance',
-        data: [20010,30120,1500,14070, latestBalance], 
+        data: latestBalance, 
         color: '#76DA35'
     }]
 });
