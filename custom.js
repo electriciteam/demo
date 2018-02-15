@@ -303,7 +303,8 @@ $(window).on('load', function() {
             console.log(errorMsg);
             return;
         }
-        $('#content').text('Balance from contract: ' + currentBalance);
+        //$('#content').text('Balance from contract: ' + currentBalance);
+	 $('#content').getElementById("currentBalance").innerHTML = 5 + 6;
     });
 
     $('#my-form').on('submit', function(e) {
