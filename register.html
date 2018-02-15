@@ -129,7 +129,7 @@ $(document).ready(function(){
     	if (day < 10) day = "0" + day;
 
     	var today = year + "-" + month + "-" + day;       
-    	$("#installationdate").attr("value", today);
+    	$("#installationdate").attr("min", today);
 	
 	/*hide parts for later*/
 	$("#noerror").hide();
