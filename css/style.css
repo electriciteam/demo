@@ -305,7 +305,7 @@ footer a:active {
 	bottom: -0.4em;
 }
 
-#signinfp {
+a #signinfp {
 	display: block;
 	margin-right: 0em;
 	float: right;
