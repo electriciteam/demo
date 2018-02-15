@@ -35,7 +35,87 @@
 	
   	<!-- Put content below here -->
 	
-	
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<!-- Part 1, Sandro's Graph--> 
+<!-- Part 2, Area Graph--> 
+<!-- Part 3, Coin Graph--> 
+
+  <script>
+
+
+
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'area'
+    },
+    title: {
+        text: 'Production and Consumption Curves for Household PV'
+    },
+    subtitle: {
+        text: 'Non-overlapping yellow region is coinable. Modified from real PV data.'
+    },
+    xAxis: {
+        allowDecimals: false,
+        labels: {
+            formatter: function () {
+                return "Now" + this.value + " hrs";
+            }
+        }
+    },
+    yAxis: {
+        title: {
+            text: 'Energy (kWh)'
+        },
+        labels: {
+            formatter: function () {
+                return this.value ;
+            }
+        }
+    },
+    tooltip: {
+        pointFormat: 'Energy {series.name} Units: <b>{point.y:,.0f}</b><br/>Time is: now - {point.x} hours'
+    },
+    plotOptions: {
+        area: {
+            pointStart: -24,
+            marker: {
+                enabled: false,
+                symbol: 'circle',
+                radius: 2,
+                states: {
+                    hover: {
+                        enabled: true
+                    }
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Consumption',
+        data: [0.77 , 1.218, 1.906, 0.634, 0.752, 0.756, 1.068, 0.616, 0.538,
+      0.634, 0.576, 2.072, 0.68 , 0.596, 0.542, 0.482, 0.508, 0.49 ,
+      0.45 , 0.48 , 0.352, 0.38 , 0.408, 0.442, 0.932], 
+       color: '#FF0000'
+
+    }, {
+        name: 'Production',
+        data: [2.232e+00, 3.394e+00, 3.733e+00, 3.795e+00, 3.477e+00, 2.727e+00,
+      1.618e+00, 1.460e-01, 1.000e-03, 0.000e+00, 0.000e+00, 0.000e+00,
+      0.000e+00, 0.000e+00, 0.000e+00, 0.000e+00, 0.000e+00, 0.000e+00,
+      0.000e+00, 0.000e+00, 0.000e+00, 0.000e+00, 5.900e-02, 2.390e-01,
+      4.270e-01], 
+        color: '#F5EFAE'
+
+    }]
+});
+  </script>
+		
+	<!-- End content -->
 	
 	
 	</main>
