@@ -147,16 +147,16 @@ input[type=button] {
 	color: #fff;
 	border: none;
 	padding: 0.5em 2em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.2em;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 1.2em;
 	border-radius: 0.5em;
 	margin: 0.4em 0.4em;
 	font-weight: bold;
 	outline: none;
 	-webkit-transition-duration: 0.3s; /* Safari */
-    transition-duration: 0.3s;
+    	transition-duration: 0.3s;
 	cursor: pointer;
 }
 
@@ -174,7 +174,7 @@ input[type=text]{
 	margin: 0.4em 0.4em;
 	outline: none;
 	-webkit-transition-duration: 0.3s; /* Safari */
-    transition-duration: 0.3s;
+    	transition-duration: 0.3s;
 }
 
 input[type=text]:focus {
