@@ -65,7 +65,7 @@ footer {
 #logo {
 	display: block;
 	font-size: 1.5em;
-	margin-left: 1em;
+	margin-left: 0.5em 1em;
 	padding: 0.3em;
 	color: #88a;
 	float: left;
