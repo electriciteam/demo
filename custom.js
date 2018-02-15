@@ -1,5 +1,4 @@
 $(window).on('load', function() {
-
     var contractAddress = "0x385c9fb8164bce3491f7a75ae8bf37621a781043"; // in Ropsten testnet!
     var contractAbi = [
 	{
@@ -304,7 +303,7 @@ $(window).on('load', function() {
             return;
         }
         $('#contentBalance').text('Balance of StromSack: ' + currentBalance + ' ELC');
-	$('#balanceVal').text(currentBalance);
+	$('#balanceVal').text(currentBalance + ' ELC');
 	console.log('I could get balance');
     });
 
