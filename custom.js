@@ -285,11 +285,11 @@ $(window).on('load', function() {
     // Checking if Web3 has been injected by the browser (Mist/MetaMask)
     if (typeof web3 !== 'undefined') {
         // Use Mist/MetaMask's provider
-        $('#content').text('I has web3!!!');
+        //$('#content').text('I has web3!!!');
         window.web3 = new Web3(web3.currentProvider);
     } else {
         var errorMsg = 'I doesn\'t has web3 :( Please open in Google Chrome Browser and install the Metamask extension.';
-        $('#content').text(errorMsg);
+        //$('#content').text(errorMsg);
         console.log(errorMsg);
         return;
     }
