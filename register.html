@@ -142,6 +142,10 @@ $(document).ready(function(){
     			document.getElementById("continue").click();
   		}
 	});
+	document.getElementById("customernumber").addEventListener("submit", function(event) {
+  		// Cancel the default action, if needed
+  		event.preventDefault();
+	});
 	/*$("#customernumber").keyup(function(event) {
 		event.preventDefault();
 		if (event.keyCode === 13) {
