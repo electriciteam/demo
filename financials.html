@@ -36,7 +36,7 @@
 	
 	<a href="dashboard.html" class="button">Back to dashboard!</a>
 	
-        <div id="contentBalance"></div>	
+	<div> Your currente Electricity-Coin contract is: <div id="balanceVal"></div> ELC</div>
 	
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
@@ -48,6 +48,7 @@
 <!-- Part 3, Coin Graph--> 
 
   <script>
+	 var latestBalance = document.getElementById("balanceVal").innerHTML;
 Highcharts.chart('containergraph', {
     chart: {
         type: 'column'
@@ -87,7 +88,7 @@ Highcharts.chart('containergraph', {
     },
     series: [ {
         name: 'Balance',
-        data: [20010,30120,1500,14070, <div id="balanceVal"></div>], 
+        data: [20010,30120,1500,14070, 20000], 
         color: '#76DA35'
     }]
 });
