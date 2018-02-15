@@ -358,6 +358,12 @@ footer a:active {
 	max-width: 25em;
 }
 
+#nodate {
+	font-size: 0.8em;
+	color: #f00;
+	max-width: 25em;
+}
+
 /* Login */
 
 
