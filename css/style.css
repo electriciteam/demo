@@ -287,6 +287,11 @@ footer a:active {
 
 /* Index */
 
+#logobig {
+	display: inline-block;
+	width: 2em;
+}
+
 #signin {
 	margin-right: 0em;
 	float: right;
