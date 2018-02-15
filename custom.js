@@ -304,6 +304,7 @@ $(window).on('load', function() {
             return;
         }
         $('#contentBalance').text('Balance of StromSack: ' + currentBalance + ' ELC');
+	console.log('I could get balance');
     });
 
     $('#my-form').on('submit', function(e) {
@@ -322,7 +323,8 @@ $(window).on('load', function() {
 	
     $('#registerPubKey').on('submit', function(e) {
         e.preventDefault(); // cancel the actual submit
-        var deposit = 5000; //$('#greeting').val();
+        // top up coin, for simplicity set as constant
+	var deposit = 5000; //$('#greeting').val();
         contractInstance.depositEnergy(deposit, function(error, txHash) {
             if (error) {
                 var errorMsg = 'error writing new greeting to smart contract: ' + error;
