@@ -16,7 +16,7 @@ Please, go to `Register` and `Login as a very cool blockchain user` to show the 
 
 Afterwards please go to https://electriciteam.github.io/demo/dashboard. 
 
-To check your current balance, click on `Check Balance`. For demo reasons we included the account settlement function which is usually done automatically. What you can do here is simulating buying energy with your ELC tokens.
+To check your current balance, click on `Check Balance`. For demo reasons we included the account `settlement` function which is usually done automatically. What you can do here is simulating buying energy with your ELC tokens. Again you will receive a transaction hash on the website which you can insert into etherscan.
 
 
 
