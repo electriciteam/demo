@@ -1,5 +1,3 @@
-# demo
-Demo for BIOTS_HACK2018
 ## STROMSACK: BIOTS2018 Hackathon
 
 *Online Demo:* https://electriciteam.github.io/demo/index
