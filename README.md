@@ -1,7 +1,7 @@
 ## STROMSACK: BIOTS2018 Hackathon
 
 *Online Demo:* https://electriciteam.github.io/demo/index
-Please, go to `Register` and `Login as a very cool blockchain user` to show the metamask login and receive `5000 ELC` tokens (Electricity tokens) to play around. 
+Please, go to `Register` and `Login as a very cool blockchain user` to show the MetaMask login and receive `5000 ELC` tokens (Electricity tokens) to play around. 
 
 This is a Project created for the BIOTS 2018 hackathon, that tackles the Virtual Energy Storage challenge proposed by EWZ.
 
