@@ -10,7 +10,7 @@ the Virtual Energy Storage challenge proposed by EWZ.
 This project aims to enable 100% green, home-made electricity, to be consumed __anywhere__ and __anytime__.
 This is done by tracking your production of energy (from any solar PV or windmill you may have in your home),
 and your consumption of energy at home and out of it. A *raspberry pi* is the IoT device that allows the
-tracking, using Emonpi for accessing the prosumer data.
+tracking, using Emonpi to access the prosumer data.
 
 This is backed up by an Ethereum Smart Contract 'Contract.sol', which tracks and ensures
 that all transactions are safe.
