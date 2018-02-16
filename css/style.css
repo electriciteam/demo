@@ -147,6 +147,12 @@ ol {
 	clear: both
 }
 
+.remark {
+	color: #0aa;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
 input[type=button] {
 	background-color: #f00;
 	color: #fff;
