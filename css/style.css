@@ -387,13 +387,13 @@ footer a:active {
 
 #page1left {
 	display: block;
-	width: 30em;
+	max-width: 30em;
 	float: left;
 }
 
 #page1right {
 	display: block;
-	width: 20em;
+	max-width: 20em;
 	float: right;
 	padding-left: 2em;
 	margin-left: 2em;
