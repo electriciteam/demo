@@ -151,6 +151,7 @@ ol {
 	color: #0aa;
 	font-style: italic;
 	font-size: 0.9em;
+	clear:both;
 }
 
 input[type=button] {
