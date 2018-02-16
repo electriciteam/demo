@@ -19,3 +19,8 @@ This is backed up by an Ethereum Smart Contract 'Contract.sol', which tracks and
 - Li Wei Yap
 - Adrian Sarbach
 - Marti Perez Canyelles
+
+## Further information
+
+- About: https://electriciteam.github.io/demo/about.html
+- FAQs: https://electriciteam.github.io/demo/faq.html
