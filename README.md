@@ -1,8 +1,8 @@
 ## STROMSACK: BIOTS2018 Hackathon
 
 *Online Demo:* https://electriciteam.github.io/demo/index
-Please, go to 'Register' and 'Login as a very cool blockchain user' to show the metamask
-login and receive '5000 ELC' tokens (Electricity tokens) to play around. 
+Please, go to `Register` and `Login as a very cool blockchain user` to show the metamask
+login and receive `5000 ELC` tokens (Electricity tokens) to play around. 
 
 This is a Project created for the BIOTS 2018 hackathon, that tackles
 the Virtual Energy Storage challenge proposed by EWZ.
@@ -14,7 +14,7 @@ tracking, using Emonpi for accessing the prosumer data.
 
 This is backed up by an Ethereum Smart Contract 'Contract.sol', which tracks and ensures
 that all transactions are safe.
-For further reference, the address of the contract is '0x0710f1f272ffa3219952ce599ee6c08dc6c9ad53', in
+For further reference, the address of the contract is `0x0710f1f272ffa3219952ce599ee6c08dc6c9ad53`, in
 the Ropsten Test Network.
 
 ## Team members
